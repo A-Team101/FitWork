@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FitWork</string>
+    <string name="title_activity_workouts">workouts</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Task Manager</string>
+    <string name="menu_slideshow">About</string>
+    <string name="home">Home</string>
+    <string name="task_reminder">Task Reminder</string>
+    <string name="about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content1">Effective Home Workouts for fast muscle building without eqipment.</string>
+    <string name="content2">FITWORK application makes you go beyond what you think as your body muscles grow and more flexible not like before.</string>
+    <string name="content3">Focuses on 4 major muscle groups:</string>
+    <string name="abscon">-->Abs Workout</string>
+    <string name="shouldercon">--> Shoulder and Back Workout</string>
+    <string name="legcon">-->Leg Workout</string>
+    <string name="armcon">-->Arm and Chest Workout</string>
+</resources>
