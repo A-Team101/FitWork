@@ -11,7 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AbsInstruction"></activity>
-        <activity android:name=".AbsStep" />
         <activity
             android:name=".workouts"
             android:label="@string/title_activity_workouts"

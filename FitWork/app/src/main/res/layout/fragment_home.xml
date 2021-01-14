@@ -41,7 +41,7 @@
                 android:src="@drawable/abs" />
 
             <ImageButton
-                android:id="@+id/text_home1"
+                android:id="@+id/shoulderwork"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="-15dp"
@@ -50,7 +50,7 @@
                 android:src="@drawable/shoulder" />
 
             <ImageButton
-                android:id="@+id/text_home2"
+                android:id="@+id/armwork"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="-15dp"
@@ -59,7 +59,7 @@
                 android:src="@drawable/armandchest" />
 
             <ImageButton
-                android:id="@+id/text_home3"
+                android:id="@+id/legwork"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="-15dp"

@@ -22,4 +22,34 @@
         android:name="com.example.fitwork.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/absStep"
+        android:name="com.example.fitwork.AbsStep"
+        android:label="activity_abs_step"
+        tools:layout="@layout/activity_abs_step" />
+    <fragment
+        android:id="@+id/absWorkout"
+        android:name="com.example.fitwork.AbsWorkout"
+        android:label="fragment_abs_workout"
+        tools:layout="@layout/fragment_abs_workout" />
+    <fragment
+        android:id="@+id/absWorkoutInstructions"
+        android:name="com.example.fitwork.AbsWorkoutInstructions"
+        android:label="fragment_abs_workout_instructions"
+        tools:layout="@layout/fragment_abs_workout_instructions" />
+    <fragment
+        android:id="@+id/shoulderWorkout"
+        android:name="com.example.fitwork.ShoulderWorkout"
+        android:label="fragment_shoulder_workout"
+        tools:layout="@layout/fragment_shoulder_workout" />
+    <fragment
+        android:id="@+id/armWorkout"
+        android:name="com.example.fitwork.ArmWorkout"
+        android:label="fragment_arm_workout"
+        tools:layout="@layout/fragment_arm_workout" />
+    <fragment
+        android:id="@+id/legWorkout"
+        android:name="com.example.fitwork.LegWorkout"
+        android:label="fragment_leg_workout"
+        tools:layout="@layout/fragment_leg_workout" />
 </navigation>
