@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -63,6 +62,8 @@ public class HomeFragment extends Fragment {
                 fragmentTransaction.replace(R.id.nav_host_fragment,absworkoutfragment);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
+            }
+        });
 
                 binding.shoulderwork.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -73,6 +74,8 @@ public class HomeFragment extends Fragment {
                         fragmentTransaction.replace(R.id.nav_host_fragment,shoulderworkoutfragment);
                         fragmentTransaction.addToBackStack(null);
                         fragmentTransaction.commit();
+                    }
+                });
 
                 binding.armwork.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -83,8 +86,11 @@ public class HomeFragment extends Fragment {
                         fragmentTransaction.replace(R.id.nav_host_fragment,armworkoutfragment);
                         fragmentTransaction.addToBackStack(null);
                         fragmentTransaction.commit();
+                    }
+                });
 
-                        binding.legwork.setOnClickListener(new View.OnClickListener() {
+
+        binding.legwork.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 Fragment legworkoutfragment = new LegWorkout();
@@ -95,15 +101,11 @@ public class HomeFragment extends Fragment {
                                 fragmentTransaction.commit();
 
                             }
-                        });
-
-                    }
-                });
-                    }
-                });
-
-            }
         });
+
+
+
+
     }
 
 

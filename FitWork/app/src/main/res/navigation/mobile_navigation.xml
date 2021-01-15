@@ -22,11 +22,6 @@
         android:name="com.example.fitwork.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-    <activity
-        android:id="@+id/absStep"
-        android:name="com.example.fitwork.AbsStep"
-        android:label="activity_abs_step"
-        tools:layout="@layout/activity_abs_step" />
     <fragment
         android:id="@+id/absWorkout"
         android:name="com.example.fitwork.AbsWorkout"

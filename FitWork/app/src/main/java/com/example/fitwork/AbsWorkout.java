@@ -1,5 +1,6 @@
 package com.example.fitwork;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -15,6 +16,7 @@ import android.widget.Button;
  * create an instance of this fragment.
  */
 public class AbsWorkout extends Fragment {
+    Button step1;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,6 +62,16 @@ public class AbsWorkout extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_abs_workout, container, false);
+        View v = inflater.inflate(R.layout.fragment_abs_workout, container, false);
+
+        step1 = v.findViewById(R.id.btnstep1);
+        step1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep1.class));
+            }
+        });
+
+        return  v;
     }
 }
