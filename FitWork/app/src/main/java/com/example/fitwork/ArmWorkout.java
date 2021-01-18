@@ -1,5 +1,6 @@
 package com.example.fitwork;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +16,12 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class ArmWorkout extends Fragment {
+    Button acstep1;
+    Button acstep2;
+    Button acstep3;
+    Button acstep4;
+    Button acstep5;
+    Button acstep6;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +67,57 @@ public class ArmWorkout extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_arm_workout, container, false);
+        View v = inflater.inflate(R.layout.fragment_arm_workout, container, false);
+
+        acstep6 = v.findViewById(R.id.btnastep6);
+        acstep6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ArmStep6.class));
+            }
+        });
+
+        acstep5 = v.findViewById(R.id.btnastep5);
+        acstep5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ArmStep5.class));
+            }
+        });
+
+        acstep4 = v.findViewById(R.id.btnastep4);
+        acstep4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ArmStep4.class));
+            }
+        });
+
+        acstep3 = v.findViewById(R.id.btnastep3);
+        acstep3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ArmStep3.class));
+            }
+        });
+
+        acstep2 = v.findViewById(R.id.btnastep2);
+        acstep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ArmStep2.class));
+            }
+        });
+
+        acstep1 = v.findViewById(R.id.btnastep1);
+        acstep1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ArmStep1.class));
+            }
+        });
+
+
+        return  v;
     }
 }

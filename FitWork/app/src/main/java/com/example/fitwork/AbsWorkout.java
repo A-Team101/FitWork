@@ -16,7 +16,12 @@ import android.widget.Button;
  * create an instance of this fragment.
  */
 public class AbsWorkout extends Fragment {
-    Button step1;
+    Button astep1;
+    Button astep2;
+    Button astep3;
+    Button astep4;
+    Button astep5;
+    Button astep6;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -64,13 +69,55 @@ public class AbsWorkout extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_abs_workout, container, false);
 
-        step1 = v.findViewById(R.id.btnstep1);
-        step1.setOnClickListener(new View.OnClickListener() {
+        astep1 = v.findViewById(R.id.btnstep1);
+        astep1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(),AbsStep1.class));
             }
         });
+
+        astep2 = v.findViewById(R.id.btnstep2);
+        astep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep2.class));
+            }
+        });
+
+        astep3 = v.findViewById(R.id.btnstep3);
+        astep3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep3.class));
+            }
+        });
+
+        astep4 = v.findViewById(R.id.btnstep4);
+        astep4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep4.class));
+            }
+        });
+
+        astep5 = v.findViewById(R.id.btnstep5);
+        astep5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep5.class));
+            }
+        });
+
+        astep6 = v.findViewById(R.id.btnstep6);
+        astep6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep6.class));
+            }
+        });
+
+
 
         return  v;
     }

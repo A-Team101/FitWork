@@ -1,5 +1,6 @@
 package com.example.fitwork;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +16,12 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class ShoulderWorkout extends Fragment {
+    Button sstep1;
+    Button sstep2;
+    Button sstep3;
+    Button sstep4;
+    Button sstep5;
+    Button sstep6;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +67,61 @@ public class ShoulderWorkout extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_shoulder_workout, container, false);
+        View v = inflater.inflate(R.layout.fragment_shoulder_workout, container, false);
+
+        sstep5 = v.findViewById(R.id.btnshoulder5);
+        sstep5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep5.class));
+            }
+        });
+
+        sstep6 = v.findViewById(R.id.btnshoulder6);
+        sstep6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep6.class));
+            }
+        });
+
+
+        sstep4 = v.findViewById(R.id.btnshoulder4);
+        sstep4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep4.class));
+            }
+        });
+
+        sstep3 = v.findViewById(R.id.btnshoulder3);
+        sstep3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep3.class));
+            }
+        });
+
+        sstep2 = v.findViewById(R.id.btnshoulder2);
+        sstep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep2.class));
+            }
+        });
+
+        sstep1 = v.findViewById(R.id.btnshoulder1);
+        sstep1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), ShoulderStep1.class));
+
+            }
+        });
+
+
+
+        return  v;
+
     }
 }

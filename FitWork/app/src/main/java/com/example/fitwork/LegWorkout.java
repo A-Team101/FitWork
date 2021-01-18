@@ -1,5 +1,6 @@
 package com.example.fitwork;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +16,12 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class LegWorkout extends Fragment {
+    Button lstep1;
+    Button lstep2;
+    Button lstep3;
+    Button lstep4;
+    Button lstep5;
+    Button lstep6;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +67,57 @@ public class LegWorkout extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_leg_workout, container, false);
+        View v = inflater.inflate(R.layout.fragment_leg_workout, container, false);
+
+        lstep2 = v.findViewById(R.id.btnleg2);
+        lstep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),LegStep2.class));
+            }
+        });
+
+        lstep3 = v.findViewById(R.id.btnleg3);
+        lstep3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),LegStep3.class));
+            }
+        });
+
+        lstep4 = v.findViewById(R.id.btnleg4);
+        lstep4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),LegStep4.class));
+            }
+        });
+
+        lstep5 = v.findViewById(R.id.btnleg5);
+        lstep5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),LegStep5.class));
+            }
+        });
+
+        lstep1 = v.findViewById(R.id.btnleg1);
+        lstep1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),LegStep1.class));
+            }
+        });
+
+        lstep6 = v.findViewById(R.id.btnleg6);
+        lstep6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),LegStep6.class));
+            }
+        });
+
+
+        return  v;
     }
 }
