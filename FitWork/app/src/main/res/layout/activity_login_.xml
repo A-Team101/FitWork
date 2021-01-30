@@ -14,13 +14,7 @@
 
     tools:context=".Login_Activity">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="60dp"
-        android:layout_gravity="center"
-        android:alpha="0.9"
-        android:src="@drawable/logo" />
+
 
     <ScrollView
         android:layout_width="match_parent"

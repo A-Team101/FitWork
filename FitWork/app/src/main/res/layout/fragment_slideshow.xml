@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#151E59"
+    android:background="@drawable/new_login_gradients"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
@@ -32,7 +32,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <TextView
         android:layout_width="match_parent"
@@ -41,7 +41,9 @@
         android:paddingRight="20dp"
         android:text="@string/content1"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
@@ -50,81 +52,93 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/content2"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintVertical_bias="0.463"
+        tools:layout_editor_absoluteX="6dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/content3"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.567"
+        tools:layout_editor_absoluteX="6dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/abscon"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.623"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="129dp" />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/shouldercon"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651"
-        tools:layout_editor_absoluteX="0dp" />
-
+        app:layout_constraintVertical_bias="0.667"
+        tools:layout_editor_absoluteX="7dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/legcon"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.704"
+        tools:layout_editor_absoluteX="6dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/armcon"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text_slideshow"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.746"
+        tools:layout_editor_absoluteX="7dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

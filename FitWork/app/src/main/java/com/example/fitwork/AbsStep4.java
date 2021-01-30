@@ -3,11 +3,18 @@ package com.example.fitwork;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.widget.Button;
+import android.widget.RatingBar;
+import android.widget.Toast;
 
 public class AbsStep4 extends AppCompatActivity {
     WebView webView1;
+    RatingBar ratingBar;
+    Button btSubmit;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +27,18 @@ public class AbsStep4 extends AppCompatActivity {
         webSettings1.setJavaScriptEnabled(true);
         String file = "file:android_asset/leg.gif";
         webView1.loadUrl(file);
+
+
+        ratingBar = findViewById(R.id.rating_bar);
+        btSubmit = findViewById(R.id.bt_submit);
+
+        btSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String s = String.valueOf(ratingBar.getRating());
+                Toast.makeText(getApplicationContext(), s+"Star"
+                        ,Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

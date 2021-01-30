@@ -9,7 +9,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Task Manager</string>
+    <string name="menu_gallery">Contact</string>
     <string name="menu_slideshow">About</string>
     <string name="home">Home</string>
     <string name="task_reminder">Task Reminder</string>
@@ -18,11 +18,11 @@
     <string name="hello_blank_fragment">WORKOUT STEPS 1</string>
     <string name="content1">Effective Home Workouts for fast muscle building without eqipment.</string>
     <string name="content2">FITWORK application makes you go beyond what you think as your body muscles grow and more flexible not like before.</string>
-    <string name="content3">Focuses on 4 major muscle groups:</string>
-    <string name="abscon">-->Abs Workout</string>
-    <string name="shouldercon">--> Shoulder and Back Workout</string>
-    <string name="legcon">-->Leg Workout</string>
-    <string name="armcon">-->Arm and Chest Workout</string>
+    <string name="content3">Focuses on 6 major muscle groups:</string>
+    <string name="abscon">-->      Abs Workout</string>
+    <string name="shouldercon">-->      Shoulder and Back Workout</string>
+    <string name="legcon">-->      Leg Workout</string>
+    <string name="armcon">-->      Arm and Chest Workout</string>
     <string name="lie">1. Lie on your back with your knees bent and your arms stretched forward.</string>
     <string name="exhale">2. Exhale and lift your upper body, keeping your head and neck relaxed.</string>
     <string name="abdobenefit">Abdominal crunches are designed to tone the core muscles of the body.</string>
@@ -30,7 +30,7 @@
     <string name="bicbene">This exercise works your abs and obliques and because it keeps your body moving constantly, boosts your heart rate and burns even more calories.</string>
     <string name="liea">1. Lie on your back with your knees bent and your hands behind your ears.</string>
     <string name="lieb">2. Raise and twist your torso so your right elbow moves to meet your left knee. Repeat with the other side.</string>
-    <string name="liec">The cross crunch targets both abs and the oblique muscles. This exercise helps to strengthen the core, sculpts the waist and tones the abdominal wall.</string>
+    <string name="liec">The cross crunch targets both abs and the oblique muscles. This exercise helps to strengthen the core, sculpts the waist.</string>
     <string name="lied">1. Liew down on your back, and put your hands beneath your hips for support.</string>
     <string name="liee">2. Then lift your legs up until the form a right angle with the floor.</string>
     <string name="lief">3. Slowly bring your legs back down and repeat the exercise.</string>
@@ -40,7 +40,7 @@
     <string name="liej">1. Lie on your stomach with your arms to your sides.</string>
     <string name="liek">2. Lift your arms up and extend them over your head to touch your thumbs. Then slowly bring them back. Repeat the exercise.</string>
     <string name="liel">1. Sit on the floor with your knees bent and feet flat on the floor. Put your hands beneath your shoulders with your fingers pointing toward your hips.</string>
-    <string name="liem">2. Lift your hips off the floor. Then bend and extend your elbows to lower and lift your hips. Repeat the exercise to strengthen your upper arms</string>
+    <string name="liem">2. Lift your hips off the floor. Then bend and extend your elbows to lower and lift your hips.</string>
     <string name="lien">This exercise works almost all of the upper body muscles as it strengthens as muscles in the shoulder, chest as well as triceps.</string>
     <string name="lioo">1. Start with your hands and feet on the floor. Put your hands shoulder width apart. Bend your body, and fit your hips up in an upside down V shape.</string>
     <string name="liep">2. Bend your elbows, and bring your head close to the floor. Push your body back, and repeat the exercise.</string>
@@ -81,5 +81,7 @@
     <string name="mtxt">1. Stand straight up. Then step back with your left leg to the right, and bend your knees at the same time.</string>
     <string name="ntxt">2. Go back to the position and switch to the other side.</string>
     <string name="otxt">Stronger legs and Glutes.</string>
+    <string name="infos">For your suggestions and questions just kindly email us in fitwork@gmail.com.</string>
+    <string name="infos2">Contact number: 09167320092 </string>
 
 </resources>
