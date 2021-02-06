@@ -26,6 +26,8 @@ public class Login_Activity extends AppCompatActivity {
     private SQLiteOpenHelper openHelper;
     private Cursor cursor;
 
+    private final String CREDENTIAL_SHARED_PREF = "our_shared_pref";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

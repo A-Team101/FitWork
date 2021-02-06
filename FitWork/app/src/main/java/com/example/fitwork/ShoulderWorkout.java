@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,6 +23,14 @@ public class ShoulderWorkout extends Fragment {
     Button sstep4;
     Button sstep5;
     Button sstep6;
+
+    ImageButton sbstep1;
+    ImageButton sbstep2;
+    ImageButton sbstep3;
+    ImageButton sbstep4;
+    ImageButton sbstep5;
+    ImageButton sbstep6;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -118,6 +127,58 @@ public class ShoulderWorkout extends Fragment {
 
             }
         });
+
+
+        //imagebutton
+
+        sbstep1 = v.findViewById(R.id.sb1);
+        sbstep1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep1.class));
+            }
+        });
+
+        sbstep2 = v.findViewById(R.id.sb2);
+        sbstep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep2.class));
+            }
+        });
+
+        sbstep3 = v.findViewById(R.id.sb3);
+        sbstep3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep3.class));
+            }
+        });
+
+        sbstep4 = v.findViewById(R.id.sb4);
+        sbstep4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep4.class));
+            }
+        });
+
+        sbstep5 = v.findViewById(R.id.sb5);
+        sbstep5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep5.class));
+            }
+        });
+
+        sbstep6 = v.findViewById(R.id.sb6);
+        sbstep6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ShoulderStep6.class));
+            }
+        });
+
 
 
 

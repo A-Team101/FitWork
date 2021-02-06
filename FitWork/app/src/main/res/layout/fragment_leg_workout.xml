@@ -38,12 +38,12 @@
             android:id="@+id/btnleg2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="484dp"
+            android:layout_marginBottom="624dp"
             android:background="@drawable/button_step"
             android:text="         Plie Squats        "
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintHorizontal_bias="0.098"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -53,19 +53,19 @@
             android:layout_marginBottom="484dp"
             android:background="@drawable/button_step"
             android:text="   Backward Lunges   "
-            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintHorizontal_bias="0.877"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/btnleg4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="336dp"
             android:background="@drawable/button_step"
             android:text="    Jumping Squats    "
-            app:layout_constraintBottom_toTopOf="@+id/imageView14"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent" />
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_step"
-            android:text="         Squats         "
+            android:text="         Cobra Stretch         "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.076"
@@ -95,69 +95,81 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.94" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <ImageButton
+            android:id="@+id/lib1"
             android:layout_width="249dp"
             android:layout_height="143dp"
             android:layout_marginTop="52dp"
             android:src="@drawable/squats"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.055"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView7"
+        <ImageButton
+            android:id="@+id/lib2"
             android:layout_width="252dp"
             android:layout_height="225dp"
             android:layout_marginTop="148dp"
             android:src="@drawable/pile"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.968"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView8"
+        <ImageButton
+            android:id="@+id/lib3"
             android:layout_width="257dp"
             android:layout_height="193dp"
             android:layout_marginTop="304dp"
             android:src="@drawable/backward"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.032"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView12"
+        <ImageButton
+            android:id="@+id/lib4"
             android:layout_width="262dp"
             android:layout_height="194dp"
             android:layout_marginTop="448dp"
             android:src="@drawable/jumpings"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.966"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView14"
+        <ImageButton
+            android:id="@+id/lib5"
             android:layout_width="253dp"
             android:layout_height="140dp"
             android:layout_marginTop="612dp"
             android:src="@drawable/curtsy"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.031"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="279dp"
-            android:layout_height="143dp"
-            android:layout_marginStart="132dp"
-            android:layout_marginLeft="132dp"
-            android:layout_marginTop="764dp"
-            android:src="@drawable/squats"
+        <ImageButton
+            android:id="@+id/lib6"
+            android:layout_width="253dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="756dp"
+            android:background="#000030E1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/acobra"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

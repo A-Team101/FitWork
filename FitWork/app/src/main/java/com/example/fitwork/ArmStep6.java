@@ -11,7 +11,6 @@ import android.widget.RatingBar;
 import android.widget.Toast;
 
 public class ArmStep6 extends AppCompatActivity {
-    WebView webView1;
     RatingBar ratingBar;
     Button btSubmit;
 
@@ -20,12 +19,6 @@ public class ArmStep6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arm_step6);
 
-        webView1 = findViewById(R.id.agif);
-
-        WebSettings webSettings1 = webView1.getSettings();
-        webSettings1.setJavaScriptEnabled(true);
-        String file = "file:android_asset/pushup.gif";
-        webView1.loadUrl(file);
 
         ratingBar = findViewById(R.id.rating_bar);
         btSubmit = findViewById(R.id.bt_submit);

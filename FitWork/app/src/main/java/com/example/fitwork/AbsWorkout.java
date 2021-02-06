@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,6 +23,13 @@ public class AbsWorkout extends Fragment {
     Button astep4;
     Button astep5;
     Button astep6;
+
+    ImageButton bstep1;
+    ImageButton bstep2;
+    ImageButton bstep3;
+    ImageButton bstep4;
+    ImageButton bstep5;
+    ImageButton bstep6;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -116,6 +124,62 @@ public class AbsWorkout extends Fragment {
                 startActivity(new Intent(getActivity(),AbsStep6.class));
             }
         });
+
+
+        //imagebutton
+
+        bstep1 = v.findViewById(R.id.ib1);
+        bstep1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep1.class));
+            }
+        });
+
+        bstep2 = v.findViewById(R.id.ib2);
+        bstep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep2.class));
+            }
+        });
+
+        bstep3 = v.findViewById(R.id.ib3);
+        bstep3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep3.class));
+            }
+        });
+
+        bstep4 = v.findViewById(R.id.ib4);
+        bstep4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep4.class));
+            }
+        });
+
+        bstep5 = v.findViewById(R.id.imageView14);
+        bstep5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep5.class));
+            }
+        });
+
+        bstep6 = v.findViewById(R.id.imageView3);
+        bstep6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AbsStep6.class));
+            }
+        });
+
+
+
+
+
 
 
 

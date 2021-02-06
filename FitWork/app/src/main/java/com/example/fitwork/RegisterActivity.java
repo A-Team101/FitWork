@@ -18,6 +18,8 @@ public class RegisterActivity extends AppCompatActivity {
     private SQLiteOpenHelper openHelper;
     private SQLiteDatabase db;
     private EditText regName,regPhone,regGmail,regPassword;
+
+    private final String CREDENTIAL_SHARED_PREF = "our_shared_pref";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,18 +47,14 @@ public class RegisterActivity extends AppCompatActivity {
                 } else {
                     insertData(fname,fPhone,fGmail,fPassword);
                     Toast.makeText(RegisterActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+
+                    startActivity(new Intent(RegisterActivity.this,Login_Activity.class));
+                    finish();
                 }
             }
         });
 
-        gotoLoginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                startActivity(new Intent(RegisterActivity.this,Login_Activity.class));
-                finish();
-            }
-        });
     }
     public void insertData(String fname,String fPhone,String fGmail,String fPassword){
         ContentValues contentValues = new ContentValues();

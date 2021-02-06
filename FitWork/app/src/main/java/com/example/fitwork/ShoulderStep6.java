@@ -11,7 +11,7 @@ import android.widget.RatingBar;
 import android.widget.Toast;
 
 public class ShoulderStep6 extends AppCompatActivity {
-    WebView webView1;
+
     RatingBar ratingBar;
     Button btSubmit;
 
@@ -20,12 +20,6 @@ public class ShoulderStep6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoulder_step6);
 
-        webView1 = findViewById(R.id.agif);
-
-        WebSettings webSettings1 = webView1.getSettings();
-        webSettings1.setJavaScriptEnabled(true);
-        String file = "file:android_asset/reverse.gif";
-        webView1.loadUrl(file);
 
 
         ratingBar = findViewById(R.id.rating_bar);

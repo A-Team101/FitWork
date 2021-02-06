@@ -39,36 +39,36 @@
             android:id="@+id/btnastep2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="480dp"
+            android:layout_marginBottom="620dp"
             android:background="@drawable/button_step"
             android:text=" Wide Arm Push-Ups "
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintHorizontal_bias="0.862"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/btnastep3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="192dp"
+            android:layout_marginBottom="480dp"
             android:background="@drawable/button_step"
             android:text=" Decline Push-Ups "
-            app:layout_constraintBottom_toTopOf="@+id/imageView14"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/btnastep4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="336dp"
             android:background="@drawable/button_step"
             android:text="   Diamond Push-Ups   "
-            app:layout_constraintBottom_toTopOf="@+id/imageView14"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_step"
-            android:text="      Push-Ups      "
+            android:text="    Cobra Stretch    "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.895"
@@ -96,70 +96,81 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.951" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <ImageButton
+            android:id="@+id/iba1"
             android:layout_width="248dp"
             android:layout_height="156dp"
             android:layout_marginTop="44dp"
             android:src="@drawable/pushup"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.981"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView7"
+        <ImageButton
+            android:id="@+id/iba2"
             android:layout_width="229dp"
             android:layout_height="229dp"
             android:layout_marginTop="148dp"
             android:src="@drawable/abicycle"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.027"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView8"
+        <ImageButton
+            android:id="@+id/iba3"
             android:layout_width="255dp"
             android:layout_height="217dp"
             android:layout_marginTop="296dp"
             android:src="@drawable/decline"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.98"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView12"
+        <ImageButton
+            android:id="@+id/iba4"
             android:layout_width="258dp"
             android:layout_height="189dp"
             android:layout_marginTop="452dp"
             android:src="@drawable/diamond"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView14"
+        <ImageButton
+            android:id="@+id/iba5"
             android:layout_width="263dp"
             android:layout_height="151dp"
             android:layout_marginTop="612dp"
             android:src="@drawable/hindu"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView3"
+        <ImageButton
+            android:id="@+id/iba6"
             android:layout_width="273dp"
             android:layout_height="140dp"
             android:layout_marginStart="4dp"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="768dp"
-            android:src="@drawable/pushup"
-
+            android:src="@drawable/acobra"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

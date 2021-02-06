@@ -40,12 +40,12 @@
             android:id="@+id/btnshoulder2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="492dp"
+            android:layout_marginBottom="636dp"
             android:background="@drawable/button_step"
             android:text="     Floor Tricep Dips    "
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.072"
+            app:layout_constraintHorizontal_bias="0.064"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -55,7 +55,7 @@
             android:layout_marginBottom="488dp"
             android:background="@drawable/button_step"
             android:text="     Pike Push Ups     "
-            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.901"
             app:layout_constraintStart_toStartOf="parent" />
@@ -64,12 +64,12 @@
             android:id="@+id/btnshoulder4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="56dp"
+            android:layout_marginBottom="336dp"
             android:background="@drawable/button_step"
             android:text="  Hyperextension "
-            app:layout_constraintBottom_toTopOf="@+id/imageView14"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintHorizontal_bias="0.094"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -89,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_step"
-            android:text="  Reverse Snow Angels  "
+            android:text="  Cobra Stretch  "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.076"
@@ -97,69 +97,81 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.94" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <ImageButton
+            android:id="@+id/sb1"
             android:layout_width="249dp"
             android:layout_height="143dp"
             android:layout_marginTop="44dp"
             android:src="@drawable/snow"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.03"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView7"
+        <ImageButton
+            android:id="@+id/sb2"
             android:layout_width="252dp"
             android:layout_height="225dp"
             android:layout_marginTop="136dp"
             android:src="@drawable/tricep"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.968"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView8"
+        <ImageButton
+            android:id="@+id/sb3"
             android:layout_width="257dp"
             android:layout_height="193dp"
             android:layout_marginTop="292dp"
             android:src="@drawable/pike"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.032"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView12"
+        <ImageButton
+            android:id="@+id/sb4"
             android:layout_width="262dp"
             android:layout_height="194dp"
             android:layout_marginTop="440dp"
             android:src="@drawable/hyperextension"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.968"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView14"
+        <ImageButton
+            android:id="@+id/sb5"
             android:layout_width="253dp"
             android:layout_height="140dp"
             android:layout_marginTop="612dp"
             android:src="@drawable/supine"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.031"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView3"
+        <ImageButton
+            android:id="@+id/sb6"
             android:layout_width="279dp"
             android:layout_height="143dp"
             android:layout_marginStart="132dp"
             android:layout_marginLeft="132dp"
             android:layout_marginTop="764dp"
-            android:src="@drawable/snow"
+            android:src="@drawable/acobra"
+            android:scaleType="fitCenter"
+            android:background="#000030E1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
